@@ -1,0 +1,111 @@
+body{
+	background-color: #ccc;
+	color:#222;
+	font-family: arial;
+}
+header{
+	background-color: #333;
+}
+header nav{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+header nav ul{
+	padding: 0;
+	margin:0;
+	overflow: auto;
+}
+header nav ul li{
+	list-style: none;
+	float:left;
+}
+header nav ul li a{
+	color: #ccc;
+	padding: 20px;
+	float:left;
+	font-size: 14px;
+	text-decoration: none;
+}
+header nav ul li a:hover{
+	color: cyan;
+}
+.cont{
+	max-width:1000px ;
+	max-height:200px ;
+	margin:0 auto ;
+	background-color:#fff;
+	padding: 10px;
+}
+.my-panel{
+	width:30%;
+	float:left;
+}
+.my-info{
+	width: 45%;
+	float:left;
+}
+.cont h2{
+	font-size: 2vw;
+	margin: 0;
+	padding: 0;
+}
+.one{
+	background-color: green;
+min-height: 100px;
+padding: 1.66%;
+}
+.two{
+background-color: red;
+min-height: 100px;
+padding: 1.66%;
+}
+.three{
+	background-color:blue;
+	min-height: 100px;
+padding: 1.66%;
+
+}
+}
+.four{
+	background-color: grey;
+	min-height: 100px;
+padding: 1.66%;
+}
+.four img{
+	width: 100%;
+}
+.five{
+	background-color: cyan;
+	min-height: 100px;
+padding: 2.5%;
+overflow: auto;
+}
+.six{
+	background-color: pink;
+	min-height: 100px;
+padding: 2.5%;
+}
+.seven{
+	background-color:magenta;
+	min-height: 100px;
+padding: 2.5%;
+overflow: auto;
+}
+.eight{
+	background-color: orange;
+	min-height: 100px;
+padding: 2.5%;
+}
+@media screen and (max-width: 800px){
+	.my-panel{
+		width: 98%;
+		padding: 1%;
+	}
+}
+@media screen and (max-width:800px){
+	.my-info{
+		width: 98%;
+		padding: 1%;
+		background-color: black;
+	}
+}
